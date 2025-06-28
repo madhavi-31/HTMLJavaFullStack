@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="data:image/png;base64,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" alt="Bootstrap" width="80" height="34">
+    </a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="women.html">women</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Men.html">Men</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Kids.html">Kids</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home and Kitchen</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<a href="file:///C:/Users/madha/OneDrive/Desktop/Madhavi/Html%20tasks/login%20page.html">
+<h6 align="right">Sign In / Join AJIO</h6>
+</a>
+<h6>Customer care</h6>
+<ion-icon name="heart"></ion-icon>
+    <nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+  </div>
+</nav>
+    <center>
+    <div class="container text-center">
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+    <div class="col">
+        <a href="file:///C:/Users/madha/OneDrive/Desktop/Madhavi/project/girls%20kid.html">
+      <div class="p-3"><img src="https://images.meesho.com/images/products/396067673/dgycv_512.webp"alt=""width="250px"height="310px"></div>
+    <div class="product-title">
+     Girls Dresses
+    </a>
+    </div>
+    </div>
+    <div class="col">
+      <a href="file:///C:/Users/madha/OneDrive/Desktop/Madhavi/project/boys%20kids.html">
+      <div class="p-3"><img src="https://images.meesho.com/images/products/551324478/dopy6_400.webp"alt=""width="250px"height="310px"></div>
+      <h6>Boys Dresses </h6>
+      </a>
+    </div>
+    <div class="col">
+      <a href="file:///C:/Users/madha/OneDrive/Desktop/Madhavi/project/toys.html">
+      <div class="p-3"><img src="https://images.meesho.com/images/products/439246710/e2qpy_400.webp"alt=""width="250px"height="310px"></div>
+      <h6>Toys </h6>
+      </a>
+    </div>
+   </center>
+</div>
+</body>
+</html>
